@@ -428,8 +428,7 @@ def margin_heatmap(result_df: pd.DataFrame) -> go.Figure:
         ],
         zmid=0,
         colorbar=dict(
-            title="EUR/MWh",
-            titlefont=dict(size=10),
+            title=dict(text="EUR/MWh", font=dict(size=10)),
             tickfont=dict(size=9),
         ),
     ))
